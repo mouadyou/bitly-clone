@@ -54,3 +54,15 @@
     background-color: transparent;
     transition: all 0.3s var(--timing-function);
 }
+
+.sidebar__spacer {
+    transition: all 0.3s var(--timing-function);
+    width: 0;
+    /* display: block; */
+    height: 500px;
+    float: left;
+}
+.sidebar__spacer.open {
+    width: 200px;
+}
+

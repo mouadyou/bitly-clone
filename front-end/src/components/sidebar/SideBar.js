@@ -2,7 +2,7 @@ import React from 'react'
 import './sidebar.css'
 
 export default (props) => {
-  const { links, isOpen, ...rest } = props
+  const { links, isOpen } = props
   return (
     <div className={`sidebar__container ${isOpen ? 'open': ''}`}>
       <a  className="sidebar__link" href="/">

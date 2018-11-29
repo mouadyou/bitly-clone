@@ -1,0 +1,9 @@
+.login-view, .register-view {
+    margin: auto;
+    margin-top: 36px;
+    padding: 16px;
+    max-width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.275)!important;
+}
